@@ -1,26 +1,21 @@
 import { CLIProvider } from './context/CLIContext'
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 const App = () => {
   return (
     <CLIProvider>
       <div className="relative min-h-screen bg-gh-bg">
-
         <Navbar />
-
         <main>
-          {/* Temporary placeholder */}
-          <div className="min-h-screen dot-grid flex items-center justify-center pt-16">
-            <div className="text-center space-y-3">
-              <p className="font-mono text-gh-green text-lg">Navbar ✓</p>
-              <p className="font-mono text-gh-muted text-sm">
-                Step 05 complete — scroll down to test blur
-              </p>
-              <div className="h-screen" />
-            </div>
-          </div>
+          <Hero />
+          {/* About    → Step 07 */}
+          {/* Skills   → Step 08 */}
+          {/* Projects → Step 09 */}
+          {/* Contact  → Step 10 */}
         </main>
-
+        {/* Footer      → Step 11 */}
+        {/* TerminalCLI → Step 12 */}
       </div>
     </CLIProvider>
   )
