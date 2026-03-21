@@ -60,10 +60,15 @@ const Hero = () => {
 
             {/* Bio */}
             <p className="text-gh-muted text-base leading-relaxed mb-8 max-w-lg">
-              I build end-to-end web applications using the{' '}
-              <span className="text-gh-blue font-medium">MERN stack</span>.
-              Trained via NxtWave CCBP 4.0 — focused on clean code,
-              intuitive UIs and scalable backends.
+              <span className="text-gh-blue font-medium">Computer Engineering</span> graduate
+              with a clear focus on becoming a{' '}
+              <span className="text-gh-purple font-medium">Software Engineer</span>.
+              Advancing practical skills via{' '}
+              <span className="text-gh-blue font-medium">NxtWave CCBP 4.0</span> building
+              scalable web applications with the{' '}
+              <span className="text-gh-green font-medium">MERN stack</span>.
+              Focused on clean, efficient code and solving real world problems through
+              structured development.
             </p>
 
             {/* CTAs */}
@@ -150,45 +155,51 @@ const Hero = () => {
                 {/* JSON output */}
                 <div className="pl-4 border-l-2 border-gh-border text-xs leading-6 space-y-0.5">
                   <div className="text-gh-orange">{'{'}</div>
-                  <div className="pl-4">
-                    <span className="text-gh-blue">"name"</span>
-                    <span className="text-gh-muted">: </span>
-                    <span className="text-gh-green">"Hrutik Jagdale"</span>
-                    <span className="text-gh-muted">,</span>
-                  </div>
-                  <div className="pl-4">
-                    <span className="text-gh-blue">"role"</span>
-                    <span className="text-gh-muted">: </span>
-                    <span className="text-gh-green">"Full Stack Developer"</span>
-                    <span className="text-gh-muted">,</span>
-                  </div>
-                  <div className="pl-4">
-                    <span className="text-gh-blue">"location"</span>
-                    <span className="text-gh-muted">: </span>
-                    <span className="text-gh-green">"Pune, Maharashtra"</span>
-                    <span className="text-gh-muted">,</span>
-                  </div>
-                  <div className="pl-4">
-                    <span className="text-gh-blue">"training"</span>
-                    <span className="text-gh-muted">: </span>
-                    <span className="text-gh-green">"NxtWave CCBP 4.0"</span>
-                    <span className="text-gh-muted">,</span>
-                  </div>
-                  <div className="pl-4">
-                    <span className="text-gh-blue">"stack"</span>
-                    <span className="text-gh-muted">: [</span>
-                    <span className="text-gh-green">"React"</span>
-                    <span className="text-gh-muted">, </span>
-                    <span className="text-gh-green">"Node"</span>
-                    <span className="text-gh-muted">, </span>
-                    <span className="text-gh-green">"MongoDB"</span>
-                    <span className="text-gh-muted">],</span>
-                  </div>
-                  <div className="pl-4">
-                    <span className="text-gh-blue">"status"</span>
-                    <span className="text-gh-muted">: </span>
-                    <span className="text-gh-purple">"open_to_work"</span>
-                  </div>
+                    <div className="pl-4">
+                      <span className="text-gh-blue">"name"</span>
+                      <span className="text-gh-muted">: </span>
+                      <span className="text-gh-green">"Hrutik Jagdale"</span>
+                      <span className="text-gh-muted">,</span>
+                    </div>
+                    <div className="pl-4">
+                      <span className="text-gh-blue">"role"</span>
+                      <span className="text-gh-muted">: </span>
+                      <span className="text-gh-green">"Software Engineer"</span>
+                      <span className="text-gh-muted">,</span>
+                    </div>
+                    <div className="pl-4">
+                      <span className="text-gh-blue">"degree"</span>
+                      <span className="text-gh-muted">: </span>
+                      <span className="text-gh-green">"BE CSE"</span>
+                      <span className="text-gh-muted">,</span>
+                    </div>
+                    <div className="pl-4">
+                      <span className="text-gh-blue">"training"</span>
+                      <span className="text-gh-muted">: </span>
+                      <span className="text-gh-green">"NxtWave CCBP 4.0"</span>
+                      <span className="text-gh-muted">,</span>
+                    </div>
+                    <div className="pl-4">
+                      <span className="text-gh-blue">"experience"</span>
+                      <span className="text-gh-muted">: </span>
+                      <span className="text-gh-green">"Android Intern @ ProAzure"</span>
+                      <span className="text-gh-muted">,</span>
+                    </div>
+                    <div className="pl-4">
+                      <span className="text-gh-blue">"stack"</span>
+                      <span className="text-gh-muted">: [</span>
+                      <span className="text-gh-green">"React"</span>
+                      <span className="text-gh-muted">, </span>
+                      <span className="text-gh-green">"Node"</span>
+                      <span className="text-gh-muted">, </span>
+                      <span className="text-gh-green">"MongoDB"</span>
+                      <span className="text-gh-muted">],</span>
+                    </div>
+                    <div className="pl-4">
+                      <span className="text-gh-blue">"status"</span>
+                      <span className="text-gh-muted">: </span>
+                      <span className="text-gh-purple">"open_to_work"</span>
+                    </div>
                   <div className="text-gh-orange">{'}'}</div>
                 </div>
 
@@ -226,8 +237,8 @@ const Hero = () => {
                   <div className="font-mono text-xs text-gh-muted">stack</div>
                 </div>
                 <div className="p-3 text-center">
-                  <div className="font-mono font-bold text-lg text-gh-purple">₹6L+</div>
-                  <div className="font-mono text-xs text-gh-muted">expected</div>
+                  <div className="font-mono font-bold text-lg text-gh-purple">S/W Engineer</div>
+                  <div className="font-mono text-xs text-gh-muted">target</div>
                 </div>
               </div>
 

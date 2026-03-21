@@ -81,35 +81,34 @@ const About = () => {
 
             <div className="space-y-4 text-gh-muted leading-relaxed text-base">
               <p>
-                Hey! I'm Hrutik — a Full Stack Developer based in Pune
-                who loves turning ideas into fast, functional web apps.
-                I completed my training through{' '}
-                <span className="text-gh-blue">NxtWave CCBP 4.0</span>,
-                a rigorous full-stack program focused on industry-ready skills.
+                I am a <span className="text-gh-blue">Computer Engineering</span> graduate
+                with a strong emphasis on core fundamentals data structures,
+                problem-solving, and system thinking. To complement my degree, I am
+                actively enhancing my skills through{' '}
+                <span className="text-gh-blue">NxtWave CCBP 4.0</span>, gaining
+                industry-aligned experience in full-stack development using the{' '}
+                <span className="text-gh-green">MERN stack</span>.
               </p>
               <p>
-                I work primarily with the{' '}
-                <span className="text-gh-green">MERN stack</span> — building
-                everything from pixel-perfect React frontends to robust
-                Node.js/Express APIs and MongoDB databases.
-                I care deeply about clean code, performance, and UX.
+                I have built multiple projects involving authentication systems,
+                protected routes, REST API integration, and dynamic user interfaces
+                reflecting real-world application development practices.
               </p>
               <p>
-                Currently open to{' '}
-                <span className="text-gh-purple">
-                  Full Stack, MERN Stack, and Frontend React roles
-                </span>{' '}
-                where I can grow fast and contribute from day one.
+                My goal is to grow as a{' '}
+                <span className="text-gh-purple">Software Engineer</span> by continuously
+                improving technical depth, mastering scalable application design, and
+                staying aligned with current industry standards.
               </p>
             </div>
 
             {/* ── Info grid ── */}
             <div className="grid grid-cols-2 gap-4 mt-8">
               {[
-                { label: '// based in',   value: 'Pune, Maharashtra', color: 'text-gh-blue'   },
-                { label: '// trained via', value: 'NxtWave CCBP 4.0', color: 'text-gh-green'  },
-                { label: '// availability',value: 'Immediate',         color: 'text-gh-purple' },
-                { label: '// expectation', value: '₹6+ LPA',           color: 'text-gh-orange' },
+                { label: '// degree',      value: 'BE CSE — 2025',         color: 'text-gh-blue'   },
+                { label: '// training',   value: 'NxtWave CCBP 4.0',      color: 'text-gh-green'  },
+                { label: '// availability',value: 'Immediate',              color: 'text-gh-purple' },
+                { label: '// targeting',   value: 'Software Engineer',      color: 'text-gh-orange' },
               ].map(({ label, value, color }) => (
                 <div
                   key={label}
