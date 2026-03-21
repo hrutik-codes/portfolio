@@ -182,7 +182,9 @@ const Hero = () => {
                     <div className="pl-4">
                       <span className="text-gh-blue">"experience"</span>
                       <span className="text-gh-muted">: </span>
-                      <span className="text-gh-green">"Android Intern @ ProAzure"</span>
+                      <span className="text-gh-green">
+                        "Android Intern @ ProAzure (Jan 2024)"
+                      </span>
                       <span className="text-gh-muted">,</span>
                     </div>
                     <div className="pl-4">
