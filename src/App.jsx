@@ -1,6 +1,7 @@
 import { CLIProvider } from './context/CLIContext'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import About from './components/About'
 
 const App = () => {
   return (
@@ -9,7 +10,7 @@ const App = () => {
         <Navbar />
         <main>
           <Hero />
-          {/* About    → Step 07 */}
+          <About />
           {/* Skills   → Step 08 */}
           {/* Projects → Step 09 */}
           {/* Contact  → Step 10 */}
