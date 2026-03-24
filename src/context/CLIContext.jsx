@@ -15,7 +15,7 @@ export const CLIProvider = ({ children }) => {
     </CLIContext.Provider>
   )
 }
-
+//eslint-disable-next-line react-refresh/only-export-components
 export const useCLI = () => {
   const context = useContext(CLIContext)
   if (!context) throw new Error('useCLI must be used inside CLIProvider')
